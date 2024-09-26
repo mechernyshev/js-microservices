@@ -4,7 +4,7 @@ const cors = require('cors')
 
 const app = express()
 app.use(express.json());
-
+//comment
 
 app.post('/events', async (req, res) => {
     const event = req.body;
