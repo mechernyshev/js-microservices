@@ -1,7 +1,7 @@
-const express = require ('express');
-const {randomBytes} = require('crypto')
-const cors = require('cors');
-const axios = require('axios');
+const express = require("express");
+const { randomBytes } = require("crypto");
+const cors = require("cors");
+const axios = require("axios");
 
 const app = express();
 app.use(express.json());
