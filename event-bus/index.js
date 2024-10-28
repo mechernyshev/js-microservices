@@ -8,6 +8,7 @@ app.use(cors());
 
 const events = [];
 //comment
+
 app.post("/events", (req, res) => {
     const event = req.body;
 
