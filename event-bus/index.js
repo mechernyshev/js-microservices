@@ -4,7 +4,10 @@ const cors = require('cors')
 
 const app = express()
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: "*",  // Replace with your actual client URL
+    methods: ["GET", "POST"],
+}));
 
 const events = [];
 //comment
